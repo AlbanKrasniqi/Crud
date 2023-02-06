@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "name": "Adnan ",
+      "lastName": "Gashi",
+      "adress": "Dardani",
+      "city": "Prishtina",
+      "country": "Kosova",
+      "email": "adnan12@gmail.com",
+      "email1": "adnan121@gmail.com",
+      "email2": "adnan122@gmail.com",
+      "email3": "adnan123@gmail.com",
+      "phoneNum": 123456789,
+      "phoneNum1": 123456788,
+      "phoneNum2": 123456787,
+      "phoneNum3": 123456786,
+      "id": 1
+    },
+    {
+      "name": "Alban ",
+      "lastName": "Krasniqi",
+      "adress": "Ali Ajeti",
+      "city": "Podujeve",
+      "country": "Kosova",
+      "email": "alban@gmail.com",
+      "phoneNum": 123456787,
+      "phoneNum1": 123456788,
+      "phoneNum2": 123456787,
+      "phoneNum3": 123456786,
+      "id": 2
+    },
+    {
+      "name": "Albion",
+      "email": "Albion@gmail.com",
+      "lastName": "Aliu",
+      "adress": "Ali Ajeti",
+      "city": "Podujeva",
+      "country": "Kosova",
+      "phoneNum": 123456788,
+      "phoneNum1": 123456788,
+      "phoneNum2": 123456787,
+      "phoneNum3": 123456786,
+      "id": 3
+    }
+  ]
+}

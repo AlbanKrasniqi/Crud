@@ -1,0 +1,123 @@
+.form{
+  background-color: #f4f4f7a9;
+}
+.cancelBtn{
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #ef233c;
+    box-shadow: 0 5px #d90429;
+    text-align: center;
+}
+
+.cancelBtn:hover{ 
+  box-shadow: 0 3px #d90429;
+  top: 1px;
+}
+.cancelBtn:active{
+    box-shadow: 0 0 #d90429;
+  top: 5px;
+}
+
+.saveBtn{
+    min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #3a86ff;
+  box-shadow: 0 5px #4433ff;
+  text-align: center;
+}
+.saveBtn:hover{
+    box-shadow: 0 3px #4433ff;
+    top: 1px;
+}
+.saveBtn:active{
+    box-shadow: 0 0 #4433ff;
+    top: 5px;
+}
+
+.addInput{
+  display: flex;
+   flex-direction: row;
+   color: #144cff;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.addOptional{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: #144cff;
+  font-size: 18px;
+  border-radius: 0px;
+  width: 200px;
+  height: 40px;
+  position: relative;
+  transition: 0.3s;
+  overflow: hidden;
+  border: none;
+  cursor: pointer;
+  background-color: #f4f4f7a9;
+
+}
+
+.addOptional::before, .addOptional::after{
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  background-color: #144CFF;
+  transition: .7s;
+}
+
+.addOptional::before{
+  top: 0;
+
+}
+.addOptional::after{
+  bottom: 0;
+
+}
+.addOptional:hover::before{
+  transform: translateX(-100%);
+}
+.addOptional:hover::after{
+  transform: translateX(100%);
+}
+
+.phoneClass{
+  padding-bottom: 3rem; 
+}
+
+.phoneClass button:hover::before{
+  transform: translateX(100%);
+}
+.phoneClass button:hover::after{
+  transform: translateX(-100%);
+}
